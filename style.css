@@ -1,0 +1,73 @@
+html{
+	font-size: 20px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: silver;
+}
+
+body *{
+	box-sizing: border-box;
+	font-family: 'Roboto';
+}
+.app-frame{
+	height:100vh;
+	background-image:url('./src/assets/pexels-magda-ehlers-1329296.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* filter: blur(5px); */
+}
+
+.app-title{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	width:50%;
+	margin: auto;
+	
+	/* position:absolute; */
+	/* left: 50%; */
+}
+
+.calc{
+	background-color: skyblue;
+	color: black;
+	filter:revert;
+	margin: 50px auto;
+	width:60%;
+	padding: 8px;
+	border-radius:10px;
+	box-shadow: 5px 10px 5px 5px blue;
+}
+.calc form{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.calc form input{
+	display: block;
+	border: 1px solid gray;
+}
+
+.calc-buttons{
+	display:flex;
+	justify-content: space-around;
+	
+}
+.calc-buttons button{
+	height: 2rem;
+	width: 10rem;
+	font-size: 1rem;
+	font-weight: bolder;
+	border-radius: 10px;
+}
+
+ul{
+	list-style: none;
+}
